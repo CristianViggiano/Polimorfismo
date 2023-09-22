@@ -2,7 +2,7 @@
 
 ## Ejercicios Polimorfismo
 
-## Supermercado.
+## 1 - Supermercado.
 Práctica con interfaces y polimorfismo
 Supermercado. Creación de Interfaces
 Suponga que debe crear distintas clases Java para describir los productos que vende un supermercado.
@@ -62,13 +62,13 @@ A tener en cuenta: las calorías se calcularán multiplicando por 10 la graduaci
 Programa de prueba
 Realice un programa de prueba dónde cree varios productos de cada clase. Haga un ejemplo de polimorfismo creando un ArrayList de productos alimenticios y calculando la suma de sus calorías.
 
-## EJERCICIO DE PROGRAMACIÓN JAVA
-Servicios.
+## 2 -Servicios.
 Práctica con Clases Abstractas
 Empresa de Mantenimiento
 
 Se va a realizar una aplicación que controle los servicios que realiza una empresa de mantenimiento. Estos servicios son muy variados, pero todos ellos comparten una serie de características comunes.
 Así pues, se pide que programe una clase abstracta llamada Servicio que especificará esas características comunes y que servirá para crear, a través de herencia, las distintas clases de servicios que ofrece la empresa.
+
 ### Clase Abstracta Servicio
 Un servicio siempre tendrá las siguientes propiedades:
 Trabajador (String) – nombre y apellidos del trabajador que realiza el servicio.
@@ -112,16 +112,16 @@ Hay que tener en cuenta que cuando la superficie a pintar es de menos de 50 metr
 String detalleServicio();
 Este método devolverá un resumen del servicio con la siguiente estructura:
 
-TRABAJO DE PINTURA
-Cliente: (cliente)
-Fecha de inicio: (fecha)
-----------------------------------------
-Pintor: (pintor)
-Coste Material..... (coste material)
-Coste Mano Obra.... (coste mano de obra)
-Coste Adicional.... (coste adicional)
-TOTAL: ............ (total coste servicio)
---------------------------------------
+"TRABAJO DE PINTURA"
+"Cliente: (cliente)"
+"Fecha de inicio: (fecha)"
+"-----------------------------------------"
+"Pintor: (pintor)"
+"Coste Material..... (coste material)"
+"Coste Mano Obra.... (coste mano de obra)"
+"Coste Adicional.... (coste adicional)"
+"TOTAL: ............ (total coste servicio)"
+"------------------------------------------"
 
 ### Clase RevisionAlarma
 Uno de los servicios que realiza la empresa es la revisión de las alarmas contraincendios. Para definir este tipo de trabajo programe la clase RevisionAlarma, heredándola de Servicio, con las siguientes características:
@@ -142,12 +142,12 @@ El coste total es igual al coste de mano de obra.
 String detalleServicio();
 Este método devolverá un resumen del servicio con la siguiente estructura:
 
-REVISIÓN PERIÓDICA ALARMAS CONTRAINCENDIOS
-Cliente: (cliente)
-Fecha revisión: (fecha)
- ------------------------------------
-TOTAL: ....... (total coste servicio)
- ----------------------------------
+"REVISIÓN PERIÓDICA ALARMAS CONTRAINCENDIOS"
+"Cliente: (cliente)"
+"Fecha revisión: (fecha)"
+"-------------------------------------"
+"TOTAL: ....... (total coste servicio)"
+"-------------------------------------"
 
 ### Programa de Prueba
 Realice un programa de prueba en el que se creen varios trabajos de pintura y revisiones de alarmas.
